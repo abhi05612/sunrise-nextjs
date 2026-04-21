@@ -135,7 +135,7 @@ export default async function Home() {
         image: f._embedded?.["wp:featuredmedia"]?.[0]?.source_url ?? undefined,
         icon: "🏫",
       }))
-    : schoolConfig.facilities;
+    : schoolConfig.facilities.map(f => ({ ...f, image: undefined as string | undefined }));
 
   return (
     <div>
