@@ -135,7 +135,7 @@ export default async function Home() {
         image: f._embedded?.["wp:featuredmedia"]?.[0]?.source_url ?? undefined,
         icon: "🏫",
       }))
-    : schoolConfig.facilities.map(f => ({ ...f, image: undefined as string | undefined }));
+    : (schoolConfig.facilities as Array<{ title: string; icon: string; description: string; image?: string }>);
 
   return (
     <div>
@@ -236,7 +236,7 @@ export default async function Home() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
           {facilities.map((f) => (
             <div key={f.title} className="bg-white border border-border rounded-xl overflow-hidden text-center card-hover shadow-sm">
-              {f.image
+              {'image' in f && f.image
                 ? <img src={f.image} alt={f.title} className="w-full h-36 object-cover" />
                 : <div className="text-4xl py-5">{f.icon}</div>
               }
