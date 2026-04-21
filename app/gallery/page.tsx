@@ -1,7 +1,7 @@
 import { getGallery } from "@/lib/api";
 
 export default async function GalleryPage() {
-  const photos = await getGallery();
+  const photos = (await getGallery()) ?? [];
 
   return (
     <div className="max-w-6xl mx-auto px-6 py-12">
