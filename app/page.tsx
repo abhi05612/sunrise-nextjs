@@ -4,10 +4,10 @@ import { schoolConfig } from "./config/school";
 import HeroSlider from "./components/HeroSlider";
 
 const fallbackTeachers = [
-  { name: "Mrs. Sunita Sharma", subject: "Principal & English", emoji: "👩🏫", image: undefined as string | undefined },
-  { name: "Mr. Rajesh Kumar", subject: "Mathematics", emoji: "👨🏫", image: undefined as string | undefined },
-  { name: "Mrs. Priya Singh", subject: "Science", emoji: "👩🔬", image: undefined as string | undefined },
-  { name: "Mr. Amit Verma", subject: "Social Studies", emoji: "👨💼", image: undefined as string | undefined },
+  { name: "Mrs. Sunita Sharma", subject: "Principal & English", emoji: "👩🏫", image: "/images/teachers/sunita.jpeg" },
+  { name: "Mr. Rajesh Kumar", subject: "Mathematics", emoji: "👨🏫", image: "/images/teachers/rajesh.jpg" },
+  { name: "Mrs. Priya Singh", subject: "Science", emoji: "👩🔬", image: "/images/teachers/priya.jpg" },
+  { name: "Mr. Amit Verma", subject: "Social Studies", emoji: "👨💼", image: "/images/teachers/amit.jpeg" },
 ];
 
 const fallbackTestimonials = [
@@ -17,23 +17,23 @@ const fallbackTestimonials = [
 ];
 
 const fallbackWhyUs = [
-  { icon: "🏆", image: "/acadmic-excellence.png", title: "Academic Excellence", desc: "Consistent top results with a focus on conceptual learning and critical thinking." },
-  { icon: "🌱", title: "Holistic Development", desc: "Sports, arts, music, and life skills alongside academics for all-round growth." },
-  { icon: "👩💻", title: "Modern Infrastructure", desc: "Smart classrooms, well-equipped labs, and high-speed internet throughout campus." },
-  { icon: "❤️", title: "Safe & Caring", desc: "A safe, inclusive environment where every child feels valued and supported." },
-  { icon: "🎓", title: "Expert Faculty", desc: "Experienced, trained teachers passionate about making learning enjoyable." },
-  { icon: "🤝", title: "Parent Partnership", desc: "Regular PTMs and open communication to keep parents involved in their child's journey." },
+  { icon: "🏆", image: "/images/whyus/academic.jpeg", title: "Academic Excellence", desc: "Consistent top results with a focus on conceptual learning and critical thinking." },
+  { icon: "🌱", image: "/images/whyus/holistic.png", title: "Holistic Development", desc: "Sports, arts, music, and life skills alongside academics for all-round growth." },
+  { icon: "👩💻", image: "/images/whyus/infrastructure.png", title: "Modern Infrastructure", desc: "Smart classrooms, well-equipped labs, and high-speed internet throughout campus." },
+  { icon: "❤️", image: "/images/whyus/safe.jpeg", title: "Safe & Caring", desc: "A safe, inclusive environment where every child feels valued and supported." },
+  { icon: "🎓", image: "/images/whyus/expert-faculty.jpg", title: "Expert Faculty", desc: "Experienced, trained teachers passionate about making learning enjoyable." },
+  { icon: "🤝", image: "/images/whyus/ptm.jpeg", title: "Parent Partnership", desc: "Regular PTMs and open communication to keep parents involved in their child's journey." },
 ];
 
 const fallbackGallery = [
-  { emoji: "🏃", label: "Sports Day", image: undefined as string | undefined },
-  { emoji: "🎨", label: "Art Exhibition", image: undefined as string | undefined },
-  { emoji: "🔬", label: "Science Fair", image: undefined as string | undefined },
-  { emoji: "🎭", label: "Annual Function", image: undefined as string | undefined },
-  { emoji: "📚", label: "Library", image: undefined as string | undefined },
-  { emoji: "🎵", label: "Music Class", image: undefined as string | undefined },
-  { emoji: "🏆", label: "Award Ceremony", image: undefined as string | undefined },
-  { emoji: "🌿", label: "Nature Walk", image: undefined as string | undefined },
+  { emoji: "🏃", label: "Sports Day", image: "/images/gallery/sports.jpeg" },
+  { emoji: "🎨", label: "Art Exhibition", image: "/images/gallery/art.jpeg" },
+  { emoji: "🔬", label: "Science Fair", image: "/images/gallery/science.jpeg" },
+  { emoji: "🎭", label: "Annual Function", image: "/images/gallery/annual.jpeg" },
+  { emoji: "📚", label: "Library", image: "/images/gallery/library.jpeg" },
+  { emoji: "🎵", label: "Music Class", image: "/images/gallery/music.jpeg" },
+  { emoji: "🏆", label: "Award Ceremony", image: "/images/gallery/award.jpeg" },
+  { emoji: "🌿", label: "Nature Walk", image: "/images/gallery/nature-walk.jpeg" },
 ];
 
 const fallbackEvents = [

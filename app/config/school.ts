@@ -72,9 +72,9 @@ export const schoolConfig = {
 
   home: {
     heroSlides: [
-      { image: "/images/hero1.jpg", title: "Welcome to Sunrise Public School", subtitle: "Where Every Child Shines" },
-      { image: "/images/hero2.jpg", title: "Excellence in Education", subtitle: "Academics · Sports · Arts" },
-      { image: "/images/hero3.jpg", title: "Admissions Open 2025-26", subtitle: "Enroll Your Child Today" },
+      { image: "/images/banners/hero3.png", title: "Welcome to Sunrise Public School", subtitle: "Nurturing Excellence, Building Futures" },
+      { image: "/images/banners/hero1.png", title: "Excellence in Education", subtitle: "Shaping Young Minds for a Bright Tomorrow" },
+      { image: "/images/banners/hero2.png", title: "Admissions Open 2025-26", subtitle: "Limited Seats Available — Apply Today" },
     ],
     stats: [
       { label: "Years of Excellence", value: "20+" },
@@ -100,14 +100,14 @@ export const schoolConfig = {
   },
 
   facilities: [
-    { title: "Library", icon: "📚", description: "A well-stocked library with thousands of books, magazines, and digital resources." },
-    { title: "Science Labs", icon: "🔬", description: "Fully equipped Physics, Chemistry, and Biology labs for hands-on learning." },
-    { title: "Computer Lab", icon: "💻", description: "Modern computer lab with high-speed internet and latest software." },
-    { title: "Smart Classes", icon: "🖥️", description: "Interactive smart boards in every classroom for engaging digital learning." },
-    { title: "Sports Ground", icon: "⚽", description: "Large playground with facilities for cricket, football, basketball, and athletics." },
-    { title: "Art & Craft", icon: "🎨", description: "Dedicated art room to nurture creativity and artistic expression." },
-    { title: "Music & Dance", icon: "🎵", description: "Professional music and dance studio with trained instructors." },
-    { title: "Abacus & Vedic Maths", icon: "🧮", description: "Special programs to sharpen mental arithmetic skills." },
+    { title: "Library", icon: "📚", description: "A well-stocked library with thousands of books, magazines, and digital resources.", image: "/images/facilities/library.jpeg" },
+    { title: "Science Labs", icon: "🔬", description: "Fully equipped Physics, Chemistry, and Biology labs for hands-on learning.", image: "/images/facilities/labs.jpeg" },
+    { title: "Computer Lab", icon: "💻", description: "Modern computer lab with high-speed internet and latest software.", image: "/images/facilities/computer.jpg" },
+    { title: "Smart Classes", icon: "🖥️", description: "Interactive smart boards in every classroom for engaging digital learning.", image: "/images/facilities/smartclass.jpg" },
+    { title: "Sports Ground", icon: "⚽", description: "Large playground with facilities for cricket, football, basketball, and athletics.", image: "/images/facilities/sports.jpeg" },
+    { title: "Art & Craft", icon: "🎨", description: "Dedicated art room to nurture creativity and artistic expression.", image: "/images/facilities/art.jpg" },
+    { title: "Music & Dance", icon: "🎵", description: "Professional music and dance studio with trained instructors.", image: "/images/facilities/dance.jpg" },
+    { title: "Abacus & Vedic Maths", icon: "🧮", description: "Special programs to sharpen mental arithmetic skills.", image: "/images/facilities/abacus.jpg" },
   ],
 
   admissions: {
